@@ -8,7 +8,7 @@ import os
 from torch import optim
 from torchmetrics import Accuracy
 from torch.utils.data import Dataset
-from make_dataset import label_dict_from_config_file
+from generate_landmark_data import label_dict_from_config_file
 
 
 class NeuralNetwork(nn.Module):
